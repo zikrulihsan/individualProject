@@ -24,14 +24,9 @@
         const checkBox = document.getElementById("myCheck");
         const aRight = rightHead.getElementsByTagName("a");
         const aSide = sideNav.getElementsByTagName("a");
-        const fooa = darkFooter.getElementsByTagName("a");
         const flogo = document.getElementById("flogo");
         
        
-        darkClass.forEach((element) => {
-            element.backgroundColor = "red";
-        });
-        
       console.log(checkBox.checked);
       if (checkBox.checked === true){
         /* header darker*/
@@ -48,14 +43,10 @@
         
         for(let i=0; i<aRight.length; i++){
             aRight[i].style.color = "rgb(247, 247, 247)";
-            fooa[i].style.color ="rgb(247, 247, 247)";
+           
            
         }
-        for(let i=0; i<fooa.length; i++){
-           
-            fooa[i].style.color ="rgb(247, 247, 247)";
-           
-        }
+        
         for(let i=0; i<aSide.length; i++){
             aSide[i].style.color = "rgb(247, 247, 247)";
            
@@ -80,8 +71,8 @@
        
         
     } else if (checkBox.checked === false){
-        menuIcon.style.color ="black";
-        sideNav.style.backgroundColor = "rgb(235, 235, 235)";
+       menuIcon.style.color ="black";
+       sideNav.style.backgroundColor = "rgb(235, 235, 235)";
        darkHead.style.backgroundColor = "rgb(255,255,255)";
        darkFooter.style.backgroundColor = "rgb(231, 231, 231,0.3)";
        flogo.style.color ="black"; 
@@ -90,11 +81,7 @@
             aRight[i].style.color = "rgb(69, 76, 83)";  
             
         }
-        for(let i=0; i<=aRight.length; i++){
-        
-            fooa[i].style.color ="rgb(69, 76, 83)"; 
-            
-        }
+       
         for(let i=0; i<aSide.length; i++){
             aSide[i].style.color = "rgb(69, 76, 83)";
            
