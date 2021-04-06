@@ -439,25 +439,24 @@ label span {
 }
 
 footer{
-  height:170px;
-  
+  height:130px;
+  text-align:center;
   background-color:  rgb(231, 231, 231,0.3);
 }
 
 .footer-logo{
-  float:left;
+  
   color:rgb(99, 99, 99);
   font-size:32px;
   padding-top:20px;
 }
-.footer-list{
-  
- text-align:left;
-  float:right;
-    color:white;
-    padding-top:20px;
-}
 
+.footer-list{
+  text-align:left;
+  float:right;
+  color:white;
+  padding-top:20px;
+}
 
 .footer-list li{
   padding-bottom:10px;
